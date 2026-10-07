@@ -135,6 +135,7 @@ footer .foot-src .sources{font-size:10px;line-height:1.5;padding:0;max-width:non
 
 /* contact */
 .contact-row{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:24px}
+.email:hover{border-bottom-color:var(--fg)}
 .email{font:400 var(--fs-body)/1.4 var(--sans);user-select:all;border-bottom:1px solid var(--dim);padding-bottom:2px}
 .tenant{font:500 12px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--dim);transition:color .2s}
 .tenant:hover{color:var(--fg)}
@@ -265,7 +266,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
   <div class="wrap">
     <div class="label"><span>Contact</span></div>
     <div class="contact-row">
-      <span class="email">info@patoma.com</span>
+      <a class="email" href="mailto:info@patoma.com">info@patoma.com</a>
     </div>
   </div>
 </section>
